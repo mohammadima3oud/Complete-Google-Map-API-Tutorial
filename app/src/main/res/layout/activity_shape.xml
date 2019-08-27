@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:map="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".map.ShapeActivity">
+
+	<Button
+		android:id="@+id/bCircle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Circle"
+		android:textAllCaps="false"
+		map:layout_constraintEnd_toStartOf="@id/bPolygone"
+		map:layout_constraintStart_toStartOf="parent"
+		map:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/bPolygone"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Polygone"
+		android:textAllCaps="false"
+		map:layout_constraintEnd_toStartOf="@id/bPolyline"
+		map:layout_constraintStart_toEndOf="@id/bCircle"
+		map:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/bPolyline"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Polyline"
+		android:textAllCaps="false"
+		map:layout_constraintEnd_toStartOf="@id/bGroundOverlays"
+		map:layout_constraintStart_toEndOf="@id/bPolygone"
+		map:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/bGroundOverlays"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Ground Overlays"
+		android:textAllCaps="false"
+		map:layout_constraintEnd_toEndOf="parent"
+		map:layout_constraintStart_toEndOf="@id/bPolyline"
+		map:layout_constraintTop_toTopOf="parent" />
+
+	<fragment
+		android:id="@+id/map"
+		android:name="com.google.android.gms.maps.SupportMapFragment"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		map:layout_constraintBottom_toBottomOf="parent"
+		map:layout_constraintEnd_toEndOf="parent"
+		map:layout_constraintEnd_toStartOf="parent"
+		map:layout_constraintTop_toBottomOf="@id/bCircle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

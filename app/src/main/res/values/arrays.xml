@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="activityEntries">
+		<item>Map Basic</item>
+		<item>Map Navigation</item>
+		<item>Map Camera Events</item>
+		<item>Marker</item>
+		<item>Shape</item>
+		<item>Map Type and Style</item>
+		<item>Map Settings</item>
+		<item>Snapshot</item>
+		<item>My Location</item>
+		<item>Location Source</item>
+		<item>StreetView Basic</item>
+		<item>StreetView Navigation</item>
+		<item>StreetView Events</item>
+		<item>StreetView Settings</item>
+		<item>StreetView and Map</item>
+	</string-array>
+	<string-array name="mapTypeEntries">
+		<item>Normal</item>
+		<item>Satellite</item>
+		<item>Hybrid</item>
+		<item>Terrain</item>
+		<item>None</item>
+	</string-array>
+
+	<string-array name="mapStyleEntries">
+		<item>Grayscale</item>
+		<item>Night</item>
+		<item>Retro</item>
+		<item>Transit</item>
+		<item>Default</item>
+	</string-array>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:map="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".streetview.StreetViewNavigationActivity">
+
+	<Button
+		android:id="@+id/bZoomIn"
+		style="@style/camera_function_buttons"
+		android:text="+"
+		map:layout_constraintEnd_toEndOf="parent"
+		map:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/bZoomOut"
+		style="@style/camera_function_buttons"
+		android:text="-"
+		map:layout_constraintEnd_toEndOf="parent"
+		map:layout_constraintTop_toBottomOf="@id/bZoomIn" />
+
+	<Button
+		android:id="@+id/bPanLeft"
+		style="@style/camera_function_buttons"
+		android:text="\u2190"
+		map:layout_constraintStart_toStartOf="parent"
+		map:layout_constraintTop_toBottomOf="@id/bZoomIn" />
+
+	<Button
+		android:id="@+id/bPanUp"
+		style="@style/camera_function_buttons"
+		android:text="\u2191"
+		map:layout_constraintStart_toEndOf="@id/bPanLeft"
+		map:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/bPanDown"
+		style="@style/camera_function_buttons"
+		android:text="\u2193"
+		map:layout_constraintStart_toEndOf="@id/bPanLeft"
+		map:layout_constraintTop_toBottomOf="@id/bPanUp" />
+
+	<Button
+		android:id="@+id/bPanRight"
+		style="@style/camera_function_buttons"
+		android:text="\u2192"
+		map:layout_constraintStart_toEndOf="@id/bPanDown"
+		map:layout_constraintTop_toBottomOf="@id/bZoomIn" />
+
+	<Button
+		android:id="@+id/bWalk"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Walk"
+		map:layout_constraintEnd_toEndOf="parent"
+		map:layout_constraintStart_toStartOf="parent"
+		map:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/bPosition"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Position"
+		map:layout_constraintEnd_toEndOf="parent"
+		map:layout_constraintStart_toStartOf="parent"
+		map:layout_constraintTop_toBottomOf="@id/bWalk" />
+
+	<Button
+		android:id="@+id/bGoToSydney"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="Go to Sydney"
+		android:textAllCaps="false"
+		map:layout_constraintEnd_toStartOf="@id/bGoToSanFrancisco"
+		map:layout_constraintStart_toStartOf="parent"
+		map:layout_constraintTop_toBottomOf="@id/bPanLeft" />
+
+	<Button
+		android:id="@+id/bGoToSanFrancisco"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="Go to SanFrancisco"
+		android:textAllCaps="false"
+		map:layout_constraintEnd_toEndOf="parent"
+		map:layout_constraintStart_toEndOf="@id/bGoToSydney"
+		map:layout_constraintTop_toBottomOf="@id/bZoomOut" />
+
+	<fragment
+		android:id="@+id/street_view"
+		android:name="com.google.android.gms.maps.SupportStreetViewPanoramaFragment"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		map:layout_constraintBottom_toBottomOf="parent"
+		map:layout_constraintTop_toBottomOf="@id/bGoToSydney" />
+</androidx.constraintlayout.widget.ConstraintLayout>

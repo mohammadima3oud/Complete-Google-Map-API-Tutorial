@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:map="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".map.SnapshotActivity">
+
+	<Button
+		android:id="@+id/bTakeSnapshot"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="Take Snapshot"
+		android:textAllCaps="false"
+		map:layout_constraintEnd_toStartOf="@id/bClear"
+		map:layout_constraintStart_toStartOf="parent"
+		map:layout_constraintTop_toTopOf="parent" />
+
+	<Button
+		android:id="@+id/bClear"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:text="Clear"
+		android:textAllCaps="false"
+		map:layout_constraintEnd_toEndOf="parent"
+		map:layout_constraintStart_toEndOf="@id/bTakeSnapshot"
+		map:layout_constraintTop_toTopOf="parent" />
+
+	<ImageView
+		android:id="@+id/ivImageHolder"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		map:layout_constraintBottom_toTopOf="@id/map"
+		map:layout_constraintTop_toBottomOf="@id/bTakeSnapshot" />
+
+	<fragment
+		android:id="@+id/map"
+		android:name="com.google.android.gms.maps.SupportMapFragment"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		map:layout_constraintBottom_toBottomOf="parent"
+		map:layout_constraintTop_toBottomOf="@id/ivImageHolder" />
+</androidx.constraintlayout.widget.ConstraintLayout>

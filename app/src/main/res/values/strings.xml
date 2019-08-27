@@ -1,0 +1,11 @@
+<resources>
+	<string name="app_name">Google Map API</string>
+	<string name="title_activity_map_setting">Map</string>
+	<string name="title_activity_snapshot">Map</string>
+	<string name="title_activity_location_source">Map</string>
+	<string name="title_activity_street_view_basic">Map</string>
+	<string name="title_activity_street_view_and_map">Map</string>
+	<string name="title_activity_street_view_navigation">Map</string>
+	<string name="title_activity_street_view_events">Map</string>
+	<string name="title_activity_street_view_settings">Map</string>
+</resources>
