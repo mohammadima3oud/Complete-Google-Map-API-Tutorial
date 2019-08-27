@@ -10,13 +10,13 @@ Learn How to use Google Map API for Android from Basic to Advance.
 		</tr>
 		<tr>
 			<td align="center">
-				<img src="Images/Satellite View.png" alt="Timer UI"/>
+				<img src="images/Satellite View.png" alt="Timer UI"/>
 			</td>
 			<td align="center">
-				<img src="Images/3D Building.png" alt="Login UI"/>
+				<img src="images/3D Building.png" alt="Login UI"/>
 			</td>
 			<td align="center">
-				<img src="Images/Map and StreetView.png" alt="Fitness UI"/>
+				<img src="images/Map and StreetView.png" alt="Fitness UI"/>
 			</td>
 		</tr>
 	</tbody>
@@ -26,7 +26,7 @@ Learn all features about Google Map API from Basic to Advance. from Creating a G
 
 <b>There is also a Udemy course available for this repository. 
 if you want to learn how to work with Google Maps API please check my course at: </b>
-https://www.udemy.com/course/complete-google-map-api-for-android-tutorial/
+https://www.udemy.com/course/the-complete-google-map-api-for-android-tutorial/
 
 You will learn these topics for Google Map:
 * Getting API Key
