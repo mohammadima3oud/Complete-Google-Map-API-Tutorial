@@ -10,13 +10,13 @@ Learn How to use Google Map API for Android from Basic to Advance.
 		</tr>
 		<tr>
 			<td align="center">
-				<img src="images/Satellite View.png" alt="Timer UI"/>
+				<img src="images/Satellite View.jpg" alt="Satellite View"/>
 			</td>
 			<td align="center">
-				<img src="images/3D Building.png" alt="Login UI"/>
+				<img src="images/3D Building.jpg" alt="3D Buildings"/>
 			</td>
 			<td align="center">
-				<img src="images/Map and StreetView.png" alt="Fitness UI"/>
+				<img src="images/Map and StreetView.jpg" alt="Map and StreetView"/>
 			</td>
 		</tr>
 	</tbody>
