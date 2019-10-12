@@ -55,6 +55,13 @@ You will learn these topics for StreetViewPanorama:
 ## Requirement
 Get Google Map API Key from here: https://console.developers.google.com/apis/credentials
 
+## Checkout My Libraries
+* **[Android-Intent-Library](https://github.com/mohammadima3oud/Android-Intent-Library):** A library which will save you a lot of time from writing the same intent creation code. it consist of many intent creation codes like Share, Contacts, Email and etc, which you can easily use.
+* **[Material-Resources-Library](https://github.com/mohammadima3oud/Material-Resources-Library):** A list of most useful resources for designing android apps such as all material colors and dimens, 180 Gradient background + html, social, flat, fluent, metro colors.
+* **[Complete-Google-Map-API-Tutorial](https://github.com/mohammadima3oud/Complete-Google-Map-API-Tutorial):** Learn How to use Google Map API for Android from Basic to Advance with complete examples.
+* **[DropSignIn](https://github.com/mohammadima3oud/DropSignIn):** Sign In UI Design
+* **[BlueSignIn](https://github.com/mohammadima3oud/BlueSignIn):** Sign In and Sign Up Ui Design
+
 ## Donations
 This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated. Thank you!
 
