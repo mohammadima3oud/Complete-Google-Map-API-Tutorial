@@ -25,8 +25,8 @@ Learn How to use Google Map API for Android from Basic to Advance.
 Learn all features about Google Map API from Basic to Advance. from Creating a Google Map API key the easiest way possible to changing themes and styles and changing user's location source.
 
 <b>There is also a Udemy course available for this repository. 
-if you want to learn how to work with Google Maps API please check my course at: </b>
-https://www.udemy.com/course/the-complete-google-map-api-for-android-tutorial/
+if you want to learn how to work with Google Maps API please check my course: [Complete Google Map API for Android Tutorial](https://www.udemy.com/course/the-complete-google-map-api-for-android-tutorial/?referralCode=07C6875E9237D69DA280)</b>
+
 
 You will learn these topics for Google Map:
 * Getting API Key
