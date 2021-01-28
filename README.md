@@ -1,4 +1,4 @@
-# Complete-Google-Map-API-Tutorial
+# short-Google-Map-API-Tutorial
 for android
 Learn How to use Google Map API for Android from Basic to Advance.
 for ios
